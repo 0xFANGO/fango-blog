@@ -6,5 +6,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://0xfango.github.io/fango-blog',
+	base: '/fango-blog',
 	integrations: [mdx(), sitemap()],
 });

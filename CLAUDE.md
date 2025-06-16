@@ -13,7 +13,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - Automatic deployment to GitHub Pages via GitHub Actions
 - Triggered on push to `main` branch
-- Update `site` URL in `astro.config.mjs` to match your GitHub Pages URL
+- Configured with `base: '/fango-blog'` for proper GitHub Pages subdirectory routing
+- `.nojekyll` file disables Jekyll processing to use Astro build output
 
 ## Architecture
 
